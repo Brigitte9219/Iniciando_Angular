@@ -5,8 +5,8 @@ import { PersonasComponent } from './personas/personas.component';
 
 @Component({
   selector: 'app-root',//Nombre del componente
-  standalone: true,
-  imports: [CommonModule, RouterOutlet, PersonasComponent],//Importa lo que necesitamos
+  //standalone: true,
+  //imports: [CommonModule, RouterOutlet, PersonasComponent],//Importa lo que necesitamos
   templateUrl: './app.component.html',//Define el archivo html
   styleUrl: './app.component.css'//Define el archivo de estilos basado en el html
 })
