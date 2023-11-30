@@ -10,6 +10,6 @@ import { RouterOutlet } from '@angular/router';//Muestra las vistas asociadas a 
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Mi primera app en angular';
+  title = 'Mi primera app en angular';//Atributo y valor
   saludo = 'Saludos desde Angular'
 }
