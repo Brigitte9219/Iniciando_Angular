@@ -3,13 +3,13 @@ import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';//Muestra las vistas asociadas a las rutas en la aplicación
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-root',//Nombre del componente
   standalone: true,
   imports: [CommonModule, RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  templateUrl: './app.component.html',//Define el archivo html
+  styleUrl: './app.component.css'//Define el archivo de estilos basado en el html
 })
 export class AppComponent {
-  title = 'Mi primera app en angular';//Atributo y valor
-  saludo = 'Saludos desde Angular'
+  titulo = 'Hola mundo desde angular';//Atributo y valor
+
 }
