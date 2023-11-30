@@ -5,8 +5,9 @@ import { CommonModule } from '@angular/common';
   selector: 'app-personas',
   //standalone: true,
   //imports: [CommonModule],
-  templateUrl: './personas.component.html',
-  styleUrl: './personas.component.css'
+  template: `<h1>Listado de personas!</h1>
+  <app-persona></app-persona>
+  <app-persona></app-persona>`
 })
 export class PersonasComponent {
 
